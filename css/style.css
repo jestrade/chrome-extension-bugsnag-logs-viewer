@@ -1,0 +1,52 @@
+.header {
+  margin: 0;
+  padding: 20px;
+}
+.image {
+  margin-right: 5px;
+}
+#logs {
+  min-width: 700px;
+  min-height: 450px;
+  max-height: 450px;
+  overflow-y: auto;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#buttons {
+  padding: 10px;
+  margin-top: 10px;
+}
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.log {
+  background-color: beige;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.collapsible {
+  cursor: pointer;
+  padding: 0 10px;
+}
+.content {
+  margin-left: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+  display: block;
+}
+.key {
+  font-weight: bold;
+}
+.value {
+  font-size: 13px;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}

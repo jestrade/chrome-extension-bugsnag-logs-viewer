@@ -1,18 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bugsnag Logs Viewer</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1><img src="icon16.png" width="16px" alt="logo" /> Bugsnag Logs</h1>
-  <div id="logs"></div>
-  <div id="buttons">
-    <button id="clearLogs">Clear Logs</button>
-  </div>
-  <script src="popup.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bugsnag Logs Viewer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="header">
+      <img
+        class="image"
+        src="assets/images/hs-logo.png"
+        width="16px"
+        alt="HS logo"
+      />
+      <img
+        class="image"
+        src="assets/images/bugsnag-logo.png"
+        width="16px"
+        alt="Bugsnag logo"
+      />
+      Bugsnag Logs
+    </h1>
+    <div id="logs"></div>
+    <div id="buttons">
+      <button id="clearLogs">Clear Logs</button>
+    </div>
+    <script src="js/popup.js"></script>
+  </body>
 </html>
-
